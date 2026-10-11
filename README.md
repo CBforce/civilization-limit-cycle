@@ -36,6 +36,7 @@ git clone [https://github.com/CBforce/civilization-limit-cycle.git](https://gith
 cd civilization-limit-cycle
 pip install numpy matplotlib
 python simulation_axiomatic.py
+```
 中文简介摘要《文明：极限环》是一个三维随机动力学模型，旨在统一“历史周期律”与“长期经济增长理论”。本模型将社会学变量映射为严密的物理与数学方程，解释了为何人类文明会在“不平等与崩溃”的极限环中反复震荡。同时揭示了技术承载力（$C$）如何决定这个循环是走向螺旋上升（文明进步）、停滞震荡（中等收入陷阱），还是最终走向灾难性的相变（高科技封建主义/脆性崩溃）。三个核心状态变量$x_1$（经济层）： 财富不平等程度 / 精英财富累积总量。$x_2$（社会层）： 社会熵 / 相对剥夺感与社会矛盾总量。$C$（技术层）： 文明承载力 / 生产力与技术上限。五大底层公理该系统的微分方程严格推导自以下五大社会物理学公理：量变到质变（马克思主义相变）： 社会矛盾的累积触发系统性的崩溃（基于最大熵原理推导的 Sigmoid 开关）。复杂性收益递减（泰恩特法则）： 技术突破具有边际收益递减特性，且高熵环境会物理性地破坏创新积累。动态容忍度： 经济增量会掩盖社会矛盾（提高容忍阈值），但一旦增长停滞，将引发剧烈的“脆性崩溃”。马尔萨斯-费尔哈斯竞争： 精英阶层的财富掠夺服从逻辑斯蒂（Logistic）内卷增长，受限于物理总盘子。相对剥夺感与社会遗忘： 超过容忍阈值的不公产生社会熵，而系统具备一定的时间遗忘与自愈能力。运行模拟本项目包含完整的 Python 3D 动力学仿真代码，运行以下命令即可观测“文明螺旋上升”与“治乱循环”的相空间轨迹：
 git clone [https://github.com/CBforce/civilization-limit-cycle.git](https://github.com/CBforce/civilization-limit-cycle.git)
 cd civilization-limit-cycle
