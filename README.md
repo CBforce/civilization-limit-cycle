@@ -47,7 +47,7 @@ python simulation_axiomatic.py
 
 ### 2. 🇸🇪 北欧国家 (发达国家 - 高福利的稳态社会)
 *特征：高额累进税压制马尔萨斯内卷，极高的社会修复力，平稳演化。*
-![北欧仿真结果](images/sim_Nordic.gif)
+![北欧仿真结果](images/sim_France.gif)
 
 
 ### 3. 🇫🇷 法国 (发达国家且革命老区)
