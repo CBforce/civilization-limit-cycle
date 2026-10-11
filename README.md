@@ -72,3 +72,13 @@ git clone [https://github.com/CBforce/civilization-limit-cycle.git](https://gith
 cd civilization-limit-cycle
 pip install numpy matplotlib
 python simulation_axiomatic.py
+```
+## 贡献与共建 (Contributing)
+
+*We welcome researchers from physics, economics, sociology, and computer science to contribute.*
+
+我们欢迎全球物理学、经济学、社会学以及计算机领域的同仁参与共建：
+
+- **参数拟合 (Parameter Fitting)：** 使用各国的历史基尼系数、通胀率、专利数据来拟合系统参数。
+- **政策干预反馈 (Policy Feedback Loops)：** 在方程中引入 $\theta$（税收/再分配减压阀），测试其在相平面中的镇定效果。
+- **AGI 终局模拟 (AGI Endgame Simulation)：** 修改 $C_{max}$ 极限参数，模拟通用人工智能降临后的终极稳态。
